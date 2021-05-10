@@ -1,0 +1,25 @@
+@font-face {
+    font-family: IRANSans ;
+    src: url(../font/IRANSans.ttf);
+}
+*{
+font-family: IRANSans;
+}
+.form-active{
+margin-top:  20px;
+}
+.form-active label{
+    margin-top: 50px;
+}
+.form-active div{
+display: inline-block;
+margin: 7px;}
+.wp-menu-name{
+    color:#ffeaa7;
+}
+.input-price-post{
+    width: 100%;
+    text-align: end;
+    border: 1px solid rgb(224, 212, 50) !important;
+    padding: 0px 10px;
+}
