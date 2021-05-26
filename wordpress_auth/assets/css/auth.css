@@ -1,0 +1,75 @@
+@font-face {
+    font-family: IRANSans ;
+    src: url(../font/IRANSans.ttf);
+}
+*{
+font-family: IRANSans !important;
+}
+.alert.alert-success{
+    background:green;
+}
+.alert.alert-error{
+    background:red;
+}
+.alert{
+text-align: center;
+color: #fff;
+border-radius: 4px;
+padding: 5px 0;
+display: none;
+}
+
+.formlogin{
+    background: rgb(245, 244, 187);
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 9px;;
+}
+div.formlogin input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border:none;
+}
+div.formlogin input:focus{
+    display: block;
+    width: 100%;
+    outline: none;
+}
+div.formlogin label{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+div.formlogin button{
+    display: block;
+    width: 100%;
+    margin: 20px 0px 20px 0;
+    padding: 10px ;
+    background: #3b7aee;
+    color: #fff;
+    border: 0;
+}
+.row{
+    margin: 15px 0;
+}
+.row > label{
+    width: 130px;
+    display: inline-block;
+    }
+.row > input[type=submit]{
+     background: #e7445a;
+     border: none;
+     padding:  5px 30px;
+     margin-top: 5px;
+     cursor: pointer;
+    }
+.title{
+font-size: 19px;
+text-align: center;
+padding: 9px;
+margin: 0 1px;
+background: #a7f97b;
+color: white;
+    }
